@@ -10,14 +10,13 @@
 <body>
     <div class="title">Etch-a-Sketch</div>
     <div class="buttons">
-        <button id="color">Color</button>
+        <input type="color" value="#000000" id="color-input">
+        <button id="rainbow">Rainbow</button>
         <button id="eraser">Eraser</button>
-        <button id="size">Size</button>
+        <button id="reset">Reset</button>
     </div>
-    <div class="grid">
-
-    </div>
-    <script src="./scripts.js"></script>
+    <div class="grid"></div>
+    <input type="range" id="slider" value="16" min="4" max="100" step="1">
 </body>
-
+<script src="./scripts.js"></script>
 </html>
